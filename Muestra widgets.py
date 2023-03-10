@@ -54,9 +54,9 @@ comboEstados["values"]=("Estados(32)")
 
 frame3=ttk.Frame(raiz)
 frame3.grid(column=4,row=0)
-home=ttk.Radiobutton(frame3,text="Estudiante").grid(column=3,row=0,sticky=(W))
-home=ttk.Radiobutton(frame3,text="Empleado").grid(column=2,row=0,sticky=(W))
-home=ttk.Radiobutton(frame3,text="Desempleado").grid(column=1,row=0,sticky=(W))
+home=ttk.Radiobutton(frame3,text="Estudiante").grid(column=0,row=2,sticky=(W))
+home=ttk.Radiobutton(frame3,text="Empleado").grid(column=0,row=3,sticky=(W))
+home=ttk.Radiobutton(frame3,text="Desempleado").grid(column=0,row=4,sticky=(W))
 
 frame4=ttk.Frame(raiz,relief="raised",padding="3 3 12 12")
 frame4.grid(column=0,row=4)
